@@ -12,3 +12,11 @@ echo $AritematicOperation1
 #usecase-3
 AritematicOperation2=$(($value1*$value2+$value3))
 echo $AritematicOperation2
+
+#usecase-4
+AritematicOperation3=$(($value3+$value1/$value2))
+echo $AritematicOperation3
+
+#usecase-5
+AritematicOperation4=$(($value1%$value2+$value3))
+echo $AritematicOperation4
