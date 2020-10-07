@@ -38,3 +38,5 @@ done
 	echo "array values are:"${array[@]} 
 #usecase-8
 sortDecendingOrder=`echo ${array[@]} | awk 'BEGIN{RS=" "} {print $1}' | sort -nr `
+#usecase-9
+sortDecendingOrder=`echo ${array[@]} | awk 'BEGIN{RS=" "} {print $1}' | sort -n `
