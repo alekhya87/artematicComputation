@@ -29,3 +29,11 @@ AritematicOperation[3]=$AritematicOperation3
 AritematicOperation[4]=$AritematicOperation4
 
 echo "dictionary results are:" ${AritematicOperation[@]}
+#usecase-7
+variable=${AritematicOperation[@]}
+for values in $variable
+do
+	array+=($values)
+done
+	echo "array values are:"${array[@]} 
+
